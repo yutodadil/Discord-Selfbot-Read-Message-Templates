@@ -1,6 +1,7 @@
 import discum
 import random
 import requests
+from itertools import count, cycle, repeat
 bot = discum.Client(token='Your Token Here', log=False)
 
 result = ["大吉", "中吉", "小吉", "吉", "末吉", "凶", "大凶"]
