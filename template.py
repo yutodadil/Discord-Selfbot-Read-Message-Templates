@@ -42,4 +42,5 @@ def botcmds(resp):
                 f.close
                 print("> guild {} channel {} | {}#{} | Message: {}\nLogging a Chat in Chat.txt".format(guildID, channelID, username, discriminator, content))
 
-bot.gateway.run()
+for num in count():
+        bot.gateway.run()
